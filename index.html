@@ -8,6 +8,8 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"></link>
     <link href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" rel="stylesheet"></link>
 
+    <!-- Adding css to the website directly in the index.html file as it wasn't that lengthy -->
+
     <style>
         body{
             background-color: indigo;
@@ -83,6 +85,9 @@
     </style>
 
 </head>
+
+<!-- Below is the body for the web page, consisting of forms and select bars as mentioned below  -->
+
 <body>
     <div class="container my-5">
         <form class="CalculateForm" method="post">
@@ -97,6 +102,7 @@
                             </div>
                         </div>
                         <div class="col-sm-4">
+                            <!-- Select Gender  -->
                             <div>
                                 <h5>Gender*</h5>
                                 <div class="form-control">
@@ -113,6 +119,9 @@
                                 </div>
                             </div>
                         </div>
+
+                        <!-- Select Bodyfat  -->
+
                         <div class="col-sm-4">
                             <div>
                                 <h5>Body Fat*</h5>
@@ -122,6 +131,9 @@
                                 </div>
                             </div>
                         </div>
+
+                        <!-- Input height in centimeters -->
+
                         <div class="col-sm-6">
                             <div>
                                 <h5>Height*</h5>
@@ -131,6 +143,9 @@
                                 </div>
                             </div>
                         </div>
+
+                        <!-- Input the weight in kilograms  -->
+
                         <div class="col-sm-6">
                             <div>
                                 <h5>Weight*</h5>
@@ -140,6 +155,9 @@
                                 </div>
                             </div>
                         </div>
+
+                        <!-- Select the activity you do for that period of time you want to calculate your calories  -->
+
                         <div>
                             <h5>Activity*</h5>
                             <select class="form-select" name="activity" required="">
@@ -152,6 +170,9 @@
                                 <option value="1.9">Extra Active: very intense exercise daily, or physical job</option>
                             </select>
                         </div>
+
+                        <!-- Select the calorie unit from kilojoules and calories  -->
+
                         <div class="col-sm-6">
                             <div>
                                 <h5>Result Unit*</h5>
@@ -169,6 +190,9 @@
                                 </div>
                             </div>
                         </div>
+
+                        <!-- Select the formula for calculating the calories from Mifflin, Harris, Katch -->
+
                         <div class="col-sm-6">
                             <div>
                                 <h5>BMR estimation formula*</h5>
@@ -203,6 +227,9 @@
     </div>
 </body>
 
+<!-- Adding the JavaScript functions required directly in the html file as the code is easily readable due to its length -->
+
+<!-- Calculating the calories based on various attributes mentioned below  -->
 <script>
     function calculateCalorie(obj)
     {
@@ -237,6 +264,8 @@
 
         document.querySelector(".ans_calculate").innerHTML = '<div class="container"><h4 class="text-center form-control my-3 text-danger fs-4">You should consume <span class="text-white">'+Math.ceil(ret)+' '+unit+'/day </span> of calorie to maintain your weight.</h4></div>';
     }
+
+    // Below are three functions which have the formulae for BMR designed by Mifflin, Harris, and Katch respectively
 
     function Mifflin(gender, age, bodyFat, height, weight)
     {
