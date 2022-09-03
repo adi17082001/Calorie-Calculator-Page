@@ -6,3 +6,11 @@ This calculator uses your age, size, gender, and activity level to estimate the 
 You can adjust this number based on your goals if you’re trying to gain or lose weight.
 Keep in mind that this tool only provides general guidance, as activity levels and many other factors influence your daily calorie needs. Thus, this calculator will provide a number that’s close to your calorie needs.
 Your doctor or dietitian can offer more individualized advice on your ideal calorie intake depending on your health status and goals.
+
+# Web page design
+
+This web page has been made using HTML, CSS and JavaScript. 
+HTML has been used to create the structure of the website, rendering all the basic container boxes in their place.
+Various functions like the different formulae for calculating the BMR have been designed in JavaScript. 
+Basic styling features like backgrounds, fonts and container boxes have been added using CSS and Bootstrap
+
