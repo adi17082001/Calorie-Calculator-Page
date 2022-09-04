@@ -7,6 +7,9 @@ You can adjust this number based on your goals if you’re trying to gain or los
 Keep in mind that this tool only provides general guidance, as activity levels and many other factors influence your daily calorie needs. Thus, this calculator will provide a number that’s close to your calorie needs.
 Your doctor or dietitian can offer more individualized advice on your ideal calorie intake depending on your health status and goals.
 
+The web page can be accessed using the following link:
+https://adi17082001.github.io/Kratin_LLC_Assignment/
+
 # Web page design
 
 This web page has been made using HTML, CSS and JavaScript. 
