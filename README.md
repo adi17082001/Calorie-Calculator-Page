@@ -8,7 +8,8 @@ Keep in mind that this tool only provides general guidance, as activity levels a
 Your doctor or dietitian can offer more individualized advice on your ideal calorie intake depending on your health status and goals.
 
 The web page can be accessed using the following link:
-https://adi17082001.github.io/Kratin_LLC_Assignment/
+https://adi17082001.github.io/Calorie-Calculator-Page/
+
 
 # Web page design
 
